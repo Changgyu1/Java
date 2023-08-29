@@ -1,0 +1,21 @@
+package com.kh.scannersample;
+
+import java.util.Scanner;
+
+public class Scannerexme {
+	public static void main(String[] args) {
+		
+		// 정수 2개를 입력받아, 두 수의 합, 차 ,곱, 나누기 한 몫과 나머지 출력
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int inum1, inum2;
+		
+		System.out.println();
+		inum1 = sc.nextInt();
+		inum2 = sc.nextInt();
+		System.out.println(inum1 - inum2);
+		
+
+	}
+}
