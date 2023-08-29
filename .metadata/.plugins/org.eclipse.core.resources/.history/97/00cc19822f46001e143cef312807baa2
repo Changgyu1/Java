@@ -1,0 +1,16 @@
+package com.kh.variable;
+
+public class VariableConversion {
+	public static void main(String[] args) {
+		
+		// 1. 자동형변환(암시적[묵시적]형변환)
+		
+		int intNum = 100;
+		System.out.println(intNum); // 숫자 100을 의미
+		long longNum = intNum;
+		System.out.println(longNum);
+		
+		float floatNum = 3.14f;
+		System.out.println(floatNum);
+	}
+}
