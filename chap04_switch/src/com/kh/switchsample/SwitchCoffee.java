@@ -32,7 +32,7 @@ public class SwitchCoffee {
 					break;
 				default :
 					System.out.println("잘못된 선택입니다. 다시주문 해주세요!");
-				///#aSAD
+			
 			}
 		}
 		
