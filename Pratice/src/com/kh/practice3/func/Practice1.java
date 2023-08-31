@@ -48,10 +48,7 @@ public class Practice1 {
 				System.out.println("지정된 번호만 입력해주세요!");
 				
 		}
-		
-		
-		
-		
+	
 	}
 
 }
