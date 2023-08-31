@@ -22,6 +22,7 @@ public class for02 {
 			result += num1;
 			//result 변수에 num1 값을 더함
 			//num2 만큼 num1을 더하는 효과
+			System.out.println(num1 + " * " + num2 + " = " + result);
 		}
 		
 		System.out.println(num1 + " * " + num2 + " = " + result);
