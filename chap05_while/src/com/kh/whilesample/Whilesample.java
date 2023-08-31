@@ -26,7 +26,8 @@ public class Whilesample {
 			count++; // 반복 횟수를 증가시킴
 			
 		}
-
+		
+		
 	}
 
 }
