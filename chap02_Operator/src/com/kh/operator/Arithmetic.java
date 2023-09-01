@@ -1,7 +1,7 @@
 package com.kh.operator;
 
 public class Arithmetic {
-
+ 
 	public static void main(String[] args) {
 		// 1. 산술연산자 : 더하기(+), 빼기(-), 곱하기(*), 나머지 몫(/), 나누기 나머지(%)
 		
