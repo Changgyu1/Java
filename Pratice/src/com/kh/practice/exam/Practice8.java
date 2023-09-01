@@ -3,7 +3,7 @@ package com.kh.practice.exam;
 import java.util.Scanner;
 
 public class Practice8 {
-
+ 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
