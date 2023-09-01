@@ -3,7 +3,7 @@ package com.kh.switchsample;
 import java.util.Scanner;
 
 public class SwitchCoffee {
-
+ 
 	public static void main(String[] args) {
 		//while문을 활용한 switch
 		
