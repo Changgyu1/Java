@@ -20,7 +20,7 @@ public class Practice2 {
 					System.out.println(i);
 				}
 				isTrue = true;
-				break;
+				
 			}
 			
 		}
