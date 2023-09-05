@@ -15,13 +15,13 @@ public class Member {
 		this.phone = phone;
 		this.email = email;
 	}
-	public void changeName(String Name) {
-		this.Name = Name;
+	public void changeName(String memberName) {
+		this.memberName = memberName;
 	}
 	public void printName() {
 		System.out.println("memberId : " + memberId);
 		System.out.println("memberPwd : " + memberPwd);
-		System.out.println("수정전 : " + memberName + "수정후 : " + Name);
+		System.out.println("이름 : " + memberName);
 		System.out.println("나이 : " + age);
 		System.out.println("성별 : " + gender);
 		System.out.println("휴대폰 번호 : " + phone);

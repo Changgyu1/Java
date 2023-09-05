@@ -10,7 +10,7 @@ public class Lotto {
 			//중복 번호 제거
 			for (int j = 0; j < i; j++) { 
 				if(lotto[i] == lotto[j]) {
-					i--;
+					i--; //같은 숫자가 나오면 다시 빼준다
 					break;
 				}
 			}
@@ -23,7 +23,7 @@ public class Lotto {
 		//출력
 		System.out.println("로또 번호");
 		for(int i = 0; i < 6; i++) {
-			System.out.println(lotto[i] + " ");
+			System.out.print(lotto[i] + " ");
 		}
 		
 	}
