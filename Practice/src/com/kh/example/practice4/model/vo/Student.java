@@ -7,12 +7,12 @@ public class Student {
 	double height;
 	char gender;
 
-	public Student(int grade, int classroom, String name, double height, char gender) {
-		this.grade = grade;
-		this.classroom = classroom;
-		this.name = name;
-		this.height = height;
-		this.gender = gender;
+	public Student() {
+		this.grade = 1;
+		this.classroom = 7;
+		this.name = "박창규";
+		this.height = 120.7;
+		this.gender = '남';
 	}
 
 	public void information() {
