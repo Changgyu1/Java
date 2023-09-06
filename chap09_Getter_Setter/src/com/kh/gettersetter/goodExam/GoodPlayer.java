@@ -15,7 +15,8 @@ public class GoodPlayer {
 	// 검증하는 valid
 	public void isValidName() { // 캐릭터이름에 공백이 없는지 검증!
 		if (this.name == "") {
-			System.out.println("이름을 넣지 않았습니다.");
+			//System.out.println("이름을 넣지 않았습니다.");
+			this.name = "No name";
 		}
 	}
 
@@ -33,7 +34,7 @@ public class GoodPlayer {
 		}
 	}
 
-	public int getHealth() {// 체력을 반환
+	public int getHealth() { // 체력을 반환
 		return health;
 	}
 
@@ -47,8 +48,17 @@ public class GoodPlayer {
 		}
 	}
 
-	public int getAttackPower() {// 공격력을 반환
+	public int getAttackPower() { // 공격력을 반환
 		return attackPower;
 	}
 
+	// 출력메소드 작성
+	public void display() {
+		System.out.println("캐릭터 정보 : " + this.name);
+		System.out.println("체 력 정보 : " + this.health);
+		System.out.println("공격력 정보 : " + this.attackPower);
+
+	}
+	
 }
+
