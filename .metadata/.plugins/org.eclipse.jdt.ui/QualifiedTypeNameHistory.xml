@@ -6,9 +6,13 @@
     <fullyQualifiedTypeName name="com.kh.example.Practice5.model.vo.Lotto"/>
     <fullyQualifiedTypeName name="com.kh.classAM.AM"/>
     <fullyQualifiedTypeName name="com.kh.example.practice2.model.vo.Product"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.kh.classCircle.Circle"/>
     <fullyQualifiedTypeName name="com.kh.gettersetter.PlayerCharacter"/>
     <fullyQualifiedTypeName name="com.kh.example.practice3.model.vo.Circle"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.awt.Window.Type"/>
+    <fullyQualifiedTypeName name="com.kh.inheritance.animal.Animal"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.kh.inheritance.calculator.Calculator"/>
 </qualifiedTypeNameHistroy>
