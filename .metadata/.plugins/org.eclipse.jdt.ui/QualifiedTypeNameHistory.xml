@@ -9,10 +9,13 @@
     <fullyQualifiedTypeName name="com.kh.classCircle.Circle"/>
     <fullyQualifiedTypeName name="com.kh.gettersetter.PlayerCharacter"/>
     <fullyQualifiedTypeName name="com.kh.example.practice3.model.vo.Circle"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.awt.Window.Type"/>
     <fullyQualifiedTypeName name="com.kh.inheritance.animal.Animal"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.kh.inheritance.calculator.Calculator"/>
+    <fullyQualifiedTypeName name="java.awt.Dimension"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.kh.practice.dimension.DimensionPractice"/>
+    <fullyQualifiedTypeName name="com.kh.practice3.func.Practice1"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
