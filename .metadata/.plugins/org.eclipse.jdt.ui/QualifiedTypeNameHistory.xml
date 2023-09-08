@@ -16,6 +16,7 @@
     <fullyQualifiedTypeName name="java.awt.Dimension"/>
     <fullyQualifiedTypeName name="com.kh.practice.dimension.DimensionPractice"/>
     <fullyQualifiedTypeName name="com.kh.practice3.func.Practice1"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
