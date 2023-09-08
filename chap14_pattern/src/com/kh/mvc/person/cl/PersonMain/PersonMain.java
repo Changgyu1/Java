@@ -17,9 +17,10 @@ public class PersonMain {
 		//학생 정보를 업데이트해서 출력
 		contro.updata();
 		//학생 정보 업데이트
-		contro.setName("사망 5분전 김개똥");
+		contro.setName("");
 		contro.setAge(999);
 		contro.setHobby("천국가기");
+		contro.setisVaild();
 		
 		System.out.println("");
 		//업데이트 된 학생 정보 출력 

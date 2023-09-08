@@ -34,5 +34,11 @@ public class PersonModel {
 	public String getHobby() {
 		return hobby;
 	}
+	public String isVaild() {
+		if(name == "") {
+			return name = "이름을 적어주세요!";
+		}
+		return name;
+	}
 
 }

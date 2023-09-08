@@ -32,6 +32,13 @@ public class PersonController {
 	public String getName() {
 		return model.getName();
 	}
+	public String getisVaild() {
+		return model.isVaild();
+	}
+	
+	public void setisVaild() {
+		model.isVaild();
+	}
 
 	public int getAge() {
 		return model.getAge();
