@@ -20,6 +20,7 @@ public class UserClient {
 		UserController controller = new UserController(user, view);
 		
 		//학생 정보를 업데이트해서 출력
+		controller.updataView();
 		//학생 정보 업데이트
 		controller.setUserName("이순신");
 		controller.setUserAge(10);

@@ -15,43 +15,41 @@ public class UserController {
 		this.userview = userview;
 	}
 
+	public void setUserName(String Name) {
+		usermodel.setName(Name);
+	}
 
 	public void setUserAge(int Age) {
 		usermodel.setAge(Age);
 	}
+
 	public int getUserAge() {
 		return usermodel.getAge();
 	}
-	
+
 	public String getUserName() {
 		return usermodel.getName();
 	}
-	public void setUserName(String Name) {
-		//this.usermodel = usermodel;
-		usermodel.setName(Name);
-	}
-
 
 	public void setUserview(UserView userview) {
 		this.userview = userview;
 	}
 
-
-	public void updataView() {
-		userview.displayInfo(usermodel.getName(), usermodel.getAge());
+	public void setUsermodel(UserModel usermodel) {
+		this.usermodel = usermodel;
 	}
-
 	public UserModel getUsermodel() {
 		return usermodel;
 	}
 
 
-	public void setUsermodel(UserModel usermodel) {
-		this.usermodel = usermodel;
-	}
-
 
 	public UserView getUserview() {
 		return userview;
 	}
+	
+	public void updataView() {
+		userview.displayInfo(usermodel.getName(), usermodel.getAge());
+	}
+
 }
