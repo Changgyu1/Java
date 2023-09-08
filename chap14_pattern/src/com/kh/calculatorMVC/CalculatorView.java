@@ -12,7 +12,7 @@ public class CalculatorView {
 	
 	public void displayResult(int result) {          // 계산된 결과
 		System.out.println("결과 : " + result);
-	} 
+	}
 	
 	
 	
