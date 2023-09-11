@@ -38,7 +38,9 @@ public class Practice8 {
 	//classRoom 출력 메소드 분단 자리 배치를 출력하는 역할
 	public static void printClassRoom(String[][] classRoom) {
 		for(int row = 0; row < classRoom.length; row++) { // 현재 행을 나타내는 반복문 분단의 행 수 만큼 반복
+			
 			for(int col = 0; col < classRoom[0].length; col++) { // 현재 열을 나타내는 반복문 분단의 열 수 만큼 반복
+				
 				System.out.print(classRoom[row][col] + " "); // 현재 위치에 있는 학생의 이름 출력
 			}
 			System.out.println(); // 계행문자
