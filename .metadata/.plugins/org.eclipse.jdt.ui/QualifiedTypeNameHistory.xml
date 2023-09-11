@@ -17,6 +17,16 @@
     <fullyQualifiedTypeName name="com.kh.practice.dimension.DimensionPractice"/>
     <fullyQualifiedTypeName name="com.kh.practice3.func.Practice1"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.Model.UserModel"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.Controller.UserController"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.View.UserView"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.Model.StudentModel"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.View.StudentView"/>
+    <fullyQualifiedTypeName name="com.kh.pattern.mvc.Controller.StudentController"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.kh.mvc.circle.mo.CircleView.CircleView"/>
+    <fullyQualifiedTypeName name="com.kh.mvc.circle.mo.CircleController.CircleController"/>
+    <fullyQualifiedTypeName name="com.kh.mvc.person.vo.PersonView.PersonView"/>
+    <fullyQualifiedTypeName name="com.kh.mvc.person.co.PersonController.PersonController"/>
 </qualifiedTypeNameHistroy>
