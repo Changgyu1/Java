@@ -35,7 +35,7 @@ public class PersonModel {
 		return hobby;
 	}
 	public String isVaild() {
-		if(name == "") {
+		if(name == null) {
 			return name = "이름을 적어주세요!";
 		}
 		return name;
