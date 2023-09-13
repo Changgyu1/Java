@@ -11,9 +11,9 @@ public class MainRun {
 		//run.practice5();
 		//run.practice6();
 		//run.calculate();
-		//run.countWords();
+		run.countWords();
 		//run.printTriangle();
-		run.generateLottoNumbers();
+		//run.generateLottoNumbers();
 
 	}
 

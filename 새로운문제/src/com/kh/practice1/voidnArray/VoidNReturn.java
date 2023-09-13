@@ -3,6 +3,7 @@ package com.kh.practice1.voidnArray;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class VoidNReturn {
 	
@@ -181,18 +182,9 @@ public class VoidNReturn {
 		int count = 0;
 		System.out.println("단어를 입력해주세요!");
 		String input = sc.nextLine();
-		for (int i = 0; i < input.length(); i++) {
-			if (input.charAt(i) == " ".charAt(0)) {
-				count++;
-			}
-		}
-		if (input == ""){
-			System.out.println("단어를 입력하세요");
-		}else {
-		System.out.println((count + 1));
-		}
-    }
-
+		StringTokenizer tokenizer = new StringTokenizer(input);
+		System.out.println(tokenizer.countTokens());
+	}
 	public void printTriangle() {
     	/*
     	삼각형 별 출력:
