@@ -1,5 +1,7 @@
 package com.kh.practice1.voidnArray;
 
+import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class VoidNReturn {
@@ -221,20 +223,22 @@ public class VoidNReturn {
     	기능: 중복되지 않는 무작위 로또 번호를 count만큼 생성하여 출력함(void 리턴 타입).
     */
 		Scanner sc = new Scanner(System.in);
+		Random random = new Random();
 		System.out.println("뽑으실 갯수를 적어주세요!");
 		int count = sc.nextInt();
 		int[] lotto = new int[count];
 		
-		for(int i = 0; i < count; i++) {
-			int num = (int)(Math.random()*45)+1;
-			lotto[i] = num;
+		for(int i = 0; i < lotto.length; i++) {
+			lotto[i] = random.nextInt(45)+1;
 			for(int a = 0; a < i; a++) {
 				if(lotto[i] == lotto[a]) {
 					i--;
 					break;
 				}
 			}
-			System.out.print(lotto[i] + " ");
+		}
+		for(int a : lotto) {
+			System.out.print(a + " ");
 		}
 
 		
