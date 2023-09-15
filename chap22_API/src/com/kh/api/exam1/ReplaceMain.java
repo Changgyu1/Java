@@ -7,12 +7,12 @@ public class ReplaceMain {
 	public static void main(String[] args) {
 		
 		ReplaceMain replace = new ReplaceMain();
-		//replace.replace1();
+		replace.replace1();
 		//replace.replace2();
 		//replace.replace3();
 		//replace.replace4();
 		//replace.replace5();
-		replace.replaceAll();
+		//replace.replaceAll();
 
 		
 		
