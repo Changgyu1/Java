@@ -12,11 +12,11 @@ public class StringTokenizerMain {
 
 		StringTokenizerMain stm = new StringTokenizerMain();
 
-		// stm.STExam();
-		// stm.STExam2();
-		// stm.STExam3();
-		// stm.STExam4();
-		// stm.STExam5();
+		stm.STExam();
+		stm.STExam2();
+		stm.STExam3();
+		stm.STExam4();
+		stm.STExam5();
 		stm.toMath();
 
 	}
