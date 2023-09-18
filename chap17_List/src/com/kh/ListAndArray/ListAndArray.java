@@ -54,6 +54,7 @@ public class ListAndArray {
 		System.out.print("이름 목록 List : ");
 		for (String a : stringList) {
 			System.out.print(a + ", ");
+			
 		}
 	}
 
