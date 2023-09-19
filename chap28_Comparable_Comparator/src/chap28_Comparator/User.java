@@ -27,7 +27,7 @@ public class User implements Comparator<String> {
 		str.add("´Ù");
 		str.add("¾Æ");
 		str.add("°¡");
-		
+		Collections.sort(str, String.CASE_INSENSITIVE_ORDER);
 		Collections.sort(str,new User());
 		for(String a : str) {
 			System.out.println(a);
