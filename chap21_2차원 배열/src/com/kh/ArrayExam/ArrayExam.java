@@ -10,7 +10,7 @@ public class ArrayExam {
 		for(int i = 0; i < arr.length; i ++) {
 			for(int j = 0; j < arr[i].length; j++) {
 				arr[i][j] = value++;
-				//System.out.println(arr[i][j]);
+				System.out.println(arr[i][j]);
 			}
 		}
 		System.out.println(value);
