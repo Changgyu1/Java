@@ -1,33 +1,22 @@
 package 프로그래머스;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class test {
 
    public static void main(String[] args) {
-	   int[] number = {0, 31, 24, 10, 1};
-	   int answer = 0;
-	   String rsp = "2";
-	   switch(rsp){
-       case 2:
-           answer = "0";
-           break;
-       case 0:
-           answer = "5";
-           break;
-       case 5:
-           anser ="2";
-           break;
-       default:  
-   }
-	   Arrays.sort(number); // 오름차순
+	   int n = 12345;
+	   int count = 0;
+	   String str = Integer.toString(n);
+	   String[] arr = str.split(""); // 1,2,3,4,5
+	   String[] answer = new String[str.length()];
 	   
-	   answer = number[number.length-2] * number[number.length-1];
-	   System.out.println(answer);
-       
+	   for(int i = str.length()-1; i >= 0; i--) {
+		   answer[count] = arr[i];
+		   count++;
+	   }
+	   for(String a : answer) {
+		   System.out.println(a);
        }
+   }
 }
 	 
 
