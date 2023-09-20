@@ -6,7 +6,7 @@ public class test {
 	   int n = 12345;
 	   int count = 0;
 	  
-       
+        
    }
 }
 	 
