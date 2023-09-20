@@ -33,7 +33,7 @@ public class test {
 				   if (i==3 && j ==3) {
 					   n[3][3] = n[0][3] + n[1][3] + n[2][3] + n[3][0] + n[3][1] + n[3][2];
 				   }
-				 
+
 				   System.out.print(n[i][j]+", ");
 			   }
 			   System.out.println();
