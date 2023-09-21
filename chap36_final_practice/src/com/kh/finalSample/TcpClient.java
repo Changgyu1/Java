@@ -28,7 +28,7 @@ public class TcpClient {
 				String msg = "æ»≥Á«œººø‰";
 				out.write(msg.getBytes());
 				out.flush();
-				
+																												
 				socket.close();
 				
 				
