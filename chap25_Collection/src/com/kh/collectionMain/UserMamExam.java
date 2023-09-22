@@ -43,7 +43,7 @@ public class UserMamExam {
 		for(Map.Entry<String, Integer> entry : UserAge.entrySet()) {
 			String rName = entry.getKey();
 			int rAge = entry.getValue();
-			System.out.println(rName + "님의 나이는 : " + rAge + "살 입니다.");
+			System.out.println(UserAge.get(name) + rName + "님의 나이는 : " + rAge + "살 입니다.");
 		}
 		
 		
