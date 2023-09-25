@@ -11,7 +11,11 @@ public class LinkListExam {
 		List<String> list = new LinkedList<>();
 		list.add("홍길동");
 		list.add("김개똥");
-		list.add("이순신");
+		list.add("이순2신");
+		list.add("이순3신");
+		list.add("이순1신");
+		list.add("이순4신");
+		list.add("이순6신");
 		System.out.println("추가 후 출력 : " + list);
 		
 		list.set(0, "오이도");
