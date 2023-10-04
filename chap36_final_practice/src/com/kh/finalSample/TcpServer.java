@@ -9,17 +9,16 @@ import java.net.Socket;
 
 public class TcpServer {
 
-	public static void main(String[] args) throws IOException {
-		int port = 3333;
+	public static void main(String[] args) throws Exception {
+		int port =3333;
 		ServerSocket server;
-
 		server = new ServerSocket(port);
-		System.out.println("서버 시작 포트 " + port);
-		while (true) {
+		System.out.println("서버가 포트" + port + "에서 실행 중입니다.");
+		while(true) {
 			Socket client = server.accept();
-			System.out.println("cl접속" + client.getInetAddress());
+			System.out.println("클라이언트 접속:" + client.getInetAddress());
 			client.close();
-
 		}
 	}
+	
 }
