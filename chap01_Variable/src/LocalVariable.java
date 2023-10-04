@@ -5,9 +5,15 @@ public class LocalVariable {
 		int num = 10;  // 정수형 지역변수
 		String name = "Kh"; // 문자열 지역변수
 		System.out.println("num : " + num + " name : " + name);
-		
+		int i = 100;
+		byte b = 127;
+		b += 10;
+
+		System.out.println(b);
+	
 		//다른 클래스나 파일에서는 상속을 받지 않으면 변수에 접근할 수 없음
-		
+
+
 	}
 
 }
